@@ -1,4 +1,3 @@
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,16 +6,16 @@ public class Inventory {
     
     public static void main(String[] args) {
         
-        item t1 = new item("Bioderm", "Soap", 16.00f);
-        item t2 = new item("Sunsilk", "Shampoo", 8.00f);
+        item t1 = new item("Sulfur Soap", "Soap", 16.00f);
+        item t2 = new item("Violink", "Shampoo", 8.00f);
         item t3 = new item("Happy", "Toothpaste", 15.00f);
-        item t4 = new item("Royal", "Softdrinks", 12.00f);
-        item t5 = new item("EQ", "Diapers", 8.00f);
-        item t6 = new item("Nescafe", "Coffee", 7.00f);
+        item t4 = new item("Virgin Cola", "Softdrinks", 12.00f);
+        item t5 = new item("Happy", "Diapers", 8.00f);
+        item t6 = new item("Kopiko", "Coffee", 7.00f);
         item t7 = new item("Alaska", "Milk", 25.00f);
-        item t8 = new item("winston", "Cigarette", 30.00f);
-  	item t9 = new item("Skyflakes", "Biscuit", 6.00f);
-  	item t10 = new item("Whisper", "Napkin", 7.00f);
+        item t8 = new item("Fortune", "Cigarette", 30.00f);
+  	item t9 = new item("Bravo", "Biscuit", 6.00f);
+  	item t10 = new item("Modess", "Napkin", 7.00f);
 
   
   List<item> inv = new ArrayList<item>();
